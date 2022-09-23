@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit from a505f device
-$(call inherit-product, device/samsung/a505f/device.mk)
+$(call inherit-product, device/samsung/cringe/device.mk)
 
 ## Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -37,8 +37,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a505f
-PRODUCT_NAME := aosp_a505f
+PRODUCT_DEVICE := cringe
+PRODUCT_NAME := aosp_cringe
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A505F
 PRODUCT_MANUFACTURER := samsung
