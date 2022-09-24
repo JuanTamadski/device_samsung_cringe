@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cringe.mk
+    $(LOCAL_DIR)/aicp_cringe.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_cringe-eng \
-    aosp_cringe-user \
-    aosp_cringe-userdebug
+    aicp_cringe-eng \
+    aicp_cringe-user \
+    aicp_cringe-userdebug
